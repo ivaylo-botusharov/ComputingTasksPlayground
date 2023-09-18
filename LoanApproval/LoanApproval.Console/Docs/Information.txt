@@ -1,0 +1,27 @@
+System.Linq.Dynamic.Core - DynamicExpressionParser.ParseLambda
+
+
+System.Linq.Dynamic.Core/src/System.Linq.Dynamic.Core/DynamicExpressionParser.cs
+https://github.com/zzzprojects/System.Linq.Dynamic.Core/blob/master/src/System.Linq.Dynamic.Core/DynamicExpressionParser.cs
+
+System.Linq.Dynamic.Core/src/System.Linq.Dynamic.Core/ParsingConfig.cs
+https://github.com/zzzprojects/System.Linq.Dynamic.Core/blob/master/src/System.Linq.Dynamic.Core/ParsingConfig.cs
+
+public IDynamicLinkCustomTypeProvider CustomTypeProvider
+https://github.com/zzzprojects/System.Linq.Dynamic.Core/blob/6c38a1343ef18be4ebdf09b32a9eb0f8e1d536a4/src/System.Linq.Dynamic.Core/ParsingConfig.cs#L47
+
+
+Accessible types in ParseLambda? #553
+https://github.com/zzzprojects/System.Linq.Dynamic.Core/issues/553
+
+var parsingConfig = new ParsingConfig
+{
+    CustomTypeProvider = new CustomTypeProvider(new[] { typeof(LoanStatus) })
+};
+
+
+System.Linq.Dynamic.Core/src/System.Linq.Dynamic.Core/CustomTypeProviders/AbstractDynamicLinqCustomTypeProvider.cs
+https://github.com/zzzprojects/System.Linq.Dynamic.Core/blob/master/src/System.Linq.Dynamic.Core/CustomTypeProviders/AbstractDynamicLinqCustomTypeProvider.cs
+
+System.Linq.Dynamic.Core/src/System.Linq.Dynamic.Core/CustomTypeProviders/DefaultDynamicLinqCustomTypeProvider.cs
+https://github.com/zzzprojects/System.Linq.Dynamic.Core/blob/master/src/System.Linq.Dynamic.Core/CustomTypeProviders/DefaultDynamicLinqCustomTypeProvider.cs

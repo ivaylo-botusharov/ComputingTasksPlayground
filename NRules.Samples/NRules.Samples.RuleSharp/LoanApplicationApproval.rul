@@ -1,0 +1,7 @@
+using NRules.Samples.RuleSharp;
+
+rule "Loan Application Approval"
+when
+    var loanApplication = LoanApplication(la => la.Amount <= 600m);
+then
+    loanApplication.IsApproved = true;

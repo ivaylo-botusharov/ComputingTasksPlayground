@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LoanApproval.Console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/LoanApproval/LoanApproval.Console/bin/Debug/net7.0/LoanApproval.Console.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/LoanApproval/LoanApproval.Console",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "NRules.Samples.RuleSharp",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/NRules.Samples/NRules.Samples.RuleSharp/bin/Debug/net7.0/NRules.Samples.RuleSharp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/NRules.Samples/NRules.Samples.RuleSharp",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
